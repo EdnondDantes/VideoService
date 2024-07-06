@@ -1,0 +1,11 @@
+
+
+/* Добавьте этот CSS в ваш стиль или CSS-файл */
+.plyr__controls {
+   border-top-left-radius: 0;
+   
+   border-top-right-radius: 0;
+   border-bottom-left-radius: 15px; /* Закругление углов снизу слева */
+   border-bottom-right-radius: 15px; /* Закругление углов снизу справа */
+ }
+ 

@@ -1,0 +1,1 @@
+export const videoSrc = 'https://ctsrv.exeedservice.ru/testVod/dialogovayaPriemka_multibitrate.mov/video.m3u8'

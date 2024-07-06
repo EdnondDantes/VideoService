@@ -1,0 +1,119 @@
+
+/* Основной контейнер */
+.card {
+  display: grid;
+   width: 1200px;
+   height: 250px;
+   margin: 0 auto;
+   margin-top: 50px;
+   padding: 20px;
+   text-align: center;
+   justify-content: center;
+   border: 5px dashed #C78E66;
+
+   /* Не стандартная рамка */
+   /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='15' ry='15' stroke='%23C78E66FF' stroke-width='7' stroke-dasharray='20%2c 20' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+   border-radius: 15px; */ 
+
+   /* background-color: #f9f9f9; */
+   border-radius: 10px;
+   z-index: 10;
+   /* background-color: #0056b3; */
+ }
+
+ .text-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ /* Заголовок */
+ .top p {
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+ 
+ /* Область перетаскивания */
+ .drag-area {
+   border: 2px dashed #aaa;
+   border-radius: 10px;
+   padding: 20px;
+   cursor: pointer;
+   background-color: blue;
+ }
+ 
+ .drag-area.active {
+   border-color: #007bff;
+   background-color: aqua;
+ }
+ 
+ /* Стили для кнопки "Browse" */
+ .select {
+   color: #606060;
+   text-decoration: underline;
+   cursor: pointer;
+   font-weight: 600;
+ }
+ 
+ /* Скрытый файловый инпут */
+ .file {
+   display: none;
+ }
+ 
+ /* Кнопка "Upload" */
+ .button {
+   display: block;
+   margin: 20px auto;
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: bold;
+ }
+ 
+ .button:hover {
+   background-color: #0056b3;
+ }
+ 
+ /* Галерея видео */
+ /* .container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 20px;
+ } */
+ 
+ .video {
+   position: relative;
+   max-width: 200px;
+ }
+ 
+ .video video {
+   width: 100%;
+   border-radius: 5px;
+   outline: none;
+ }
+ 
+ .delete {
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   background-color: rgba(0, 0, 0, 0.7);
+   color: #fff;
+   border-radius: 50%;
+   padding: 5px;
+   cursor: pointer;
+   font-size: 18px;
+   /* cursor: pointer; */
+   z-index: 5;
+ }
+ 
+ .delete:hover {
+   background-color: rgba(0, 0, 0, 0.9);
+ }
+ 

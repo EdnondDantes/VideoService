@@ -1,0 +1,54 @@
+
+
+.video{
+  /* position: relative; */
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+
+}
+
+
+.range-input {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   outline: none;
+   overflow: hidden;
+   height: 360px;
+   background-color: initial;
+   cursor: pointer;
+   /* transform: translateY(-0.7%); */
+   align-items: center;
+   z-index: 2;
+
+ }
+
+ .range-input::-webkit-slider-runnable-track {
+   background-color: initial;
+ }
+
+ .range-input::-webkit-slider-thumb {
+   background: #ff000465;
+   cursor: pointer;
+   width:3px;
+   height: 360px;
+   -webkit-appearance: none;
+ }
+
+.range-input::-moz-range-track {
+   background-color: inherit;
+ }
+
+
+.range-input::-moz-range-thumb {
+   background: #ff0004;
+   cursor: pointer;
+   width:3px;
+   height: 360px;
+   -moz-appearance: none;
+ }
